@@ -5,8 +5,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Fira Sans, Arial, sans-serif;
 }
 
 a {
@@ -31,7 +30,7 @@ p {
   }
 }
 section {
-  @apply bg-[#2B2B2B] py-10 lg:py-20;
+  @apply bg-[#000] py-10 lg:py-20;
 }
 .card:hover {
   transform: rotateX(180deg);
